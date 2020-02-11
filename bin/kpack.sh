@@ -1,6 +1,7 @@
 #!/bin/bash
 
-cat <&0
+curl -sSL https://github.com/pivotal/kpack/releases/download/v0.0.6/release-0.0.6.yaml
 
 echo "---"
-curl -sSL https://github.com/pivotal/kpack/releases/download/v0.0.6/release-0.0.6.yaml
+
+cat <&0
